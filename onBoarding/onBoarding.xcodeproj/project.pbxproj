@@ -24,6 +24,7 @@
 		FC2856832475C950002F577D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC2856862475C950002F577D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC2856882475C950002F577D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2856902475CAB1002F577D /* cm_sans_serif_2012.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = cm_sans_serif_2012.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		FC2856792475C94B002F577D /* onBoarding */ = {
 			isa = PBXGroup;
 			children = (
+				FC28568E2475CA34002F577D /* assets */,
 				FC28567A2475C94B002F577D /* AppDelegate.swift */,
 				FC28567C2475C94B002F577D /* SceneDelegate.swift */,
 				FC28567E2475C94B002F577D /* ViewController.swift */,
@@ -65,6 +67,22 @@
 				FC2856882475C950002F577D /* Info.plist */,
 			);
 			path = onBoarding;
+			sourceTree = "<group>";
+		};
+		FC28568E2475CA34002F577D /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				FC28568F2475CA4E002F577D /* fonts */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		FC28568F2475CA4E002F577D /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FC2856902475CAB1002F577D /* cm_sans_serif_2012.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
